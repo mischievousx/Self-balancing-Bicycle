@@ -1,6 +1,6 @@
-self_balance\mpu6050.o: ..\Core\Src\mpu6050.c
+self_balance\mpu6050.o: ..\Core\Hardware\mpu6050.c
 self_balance\mpu6050.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
-self_balance\mpu6050.o: ../Core/Inc/mpu6050.h
+self_balance\mpu6050.o: ..\Core\Hardware\mpu6050.h
 self_balance\mpu6050.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 self_balance\mpu6050.o: ../Core/Inc/i2c.h
 self_balance\mpu6050.o: ../Core/Inc/main.h
